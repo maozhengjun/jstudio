@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Debug
+Bundle-SymbolicName: com.yang.jstudio.debug;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.yang.jstudio.debug.Activator
+Bundle-Vendor: YANG
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-21
+Automatic-Module-Name: com.yang.jstudio.debug
+Bundle-ActivationPolicy: lazy

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         id="ide"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="org.eclipse.ui.ide.workbench"
+            name="JPC Studio">
+         <property
+               name="appName"
+               value="JPC Studio">
+         </property>
+         <property
+               name="windowImages"
+               value="icons/16.png,icons/32.png,icons/48.png,icons/64.png,icons/128.png,icons/256.png">
+         </property>
+         <property
+               name="startupForegroundColor"
+               value="FFFFFF">
+         </property>
+         <property
+               name="startupMessageRect"
+               value="3,260,318,25">
+         </property>
+         <property
+               name="startupProgressRect"
+               value="3,286,446,12">
+         </property>
+         <property
+               name="preferenceCustomization"
+               value="plugin_customization.ini">
+         </property>
+      </product>
+   </extension>
+
+</plugin>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?pde version="3.5"?>
+
+<product name="JPC Studio" uid="jstudio" id="com.yang.jstudio.product.ide" application="org.eclipse.ui.ide.workbench" version="1.0.0.qualifier" type="features" includeLaunchers="true" autoIncludeRequirements="true">
+
+
+   <configIni use="default">
+   </configIni>
+
+   <launcherArgs>
+      <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts
+      </vmArgsMac>
+   </launcherArgs>
+
+   <windowImages i16="/com.yang.jstudio.product/icons/16.png" i32="/com.yang.jstudio.product/icons/32.png" i48="/com.yang.jstudio.product/icons/48.png" i64="/com.yang.jstudio.product/icons/64.png" i128="/com.yang.jstudio.product/icons/128.png" i256="/com.yang.jstudio.product/icons/256.png"/>
+
+   <splash
+      location="com.yang.jstudio.product"
+      startupProgressRect="3,286,446,12"
+      startupMessageRect="3,260,318,25"
+      startupForegroundColor="FFFFFF" />
+   <launcher name="jstudio">
+      <win useIco="false">
+         <ico path="/com.owner.xstudio.platform/icons/icon.ico"/>
+         <bmp
+            winSmallHigh="/com.owner.xstudio.platform/icons/16.bmp"
+            winSmallLow="/com.owner.xstudio.platform/icons/16_8bit.bmp"
+            winMediumHigh="/com.owner.xstudio.platform/icons/32.bmp"
+            winMediumLow="/com.owner.xstudio.platform/icons/32_8bit.bmp"
+            winLargeHigh="/com.owner.xstudio.platform/icons/48.bmp"
+            winLargeLow="/com.owner.xstudio.platform/icons/48_8bit.bmp"
+            winExtraLargeHigh="/com.owner.xstudio.platform/icons/256.bmp"/>
+      </win>
+   </launcher>
+
+
+   <vm>
+   </vm>
+
+   <plugins>
+   </plugins>
+
+   <features>
+      <feature id="com.yang.jstudio.feature"/>
+      <feature id="org.eclipse.platform" installMode="root"/>
+      <feature id="org.eclipse.emf.ecore" installMode="root"/>
+      <feature id="org.eclipse.equinox.p2.user.ui" installMode="root"/>
+      <feature id="org.eclipse.help" installMode="root"/>
+      <feature id="org.eclipse.equinox.p2.extras.feature" installMode="root"/>
+      <feature id="org.eclipse.ecf.filetransfer.httpclient5.feature" installMode="root"/>
+      <feature id="org.eclipse.rcp" installMode="root"/>
+      <feature id="org.eclipse.emf.common" installMode="root"/>
+      <feature id="org.eclipse.equinox.p2.core.feature" installMode="root"/>
+      <feature id="org.eclipse.ecf.core.feature" installMode="root"/>
+      <feature id="org.eclipse.equinox.p2.rcp.feature" installMode="root"/>
+      <feature id="org.eclipse.ecf.filetransfer.feature" installMode="root"/>
+      <feature id="org.eclipse.ecf.filetransfer.httpclientjava.feature" installMode="root"/>
+      <feature id="org.eclipse.ecf.core.ssl.feature" installMode="root"/>
+      <feature id="org.eclipse.ecf.filetransfer.ssl.feature" installMode="root"/>
+      <feature id="org.eclipse.e4.rcp" installMode="root"/>
+      <feature id="org.eclipse.justj.openjdk.hotspot.jre.minimal.stripped" installMode="root"/>
+   </features>
+
+   <configurations>
+      <plugin id="org.apache.felix.scr" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.core.runtime" autoStart="true" startLevel="0" />
+      <plugin id="org.eclipse.equinox.common" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.equinox.event" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.equinox.simpleconfigurator" autoStart="true" startLevel="1" />
+   </configurations>
+
+   <preferencesInfo>
+      <targetfile overwrite="false"/>
+   </preferencesInfo>
+
+   <cssInfo>
+   </cssInfo>
+
+</product>

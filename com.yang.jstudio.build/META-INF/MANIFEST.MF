@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Build
+Bundle-SymbolicName: com.yang.jstudio.build;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.yang.jstudio.build.Activator
+Bundle-Vendor: YANG
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.cdt.managedbuilder.core;bundle-version="9.7.0",
+ org.eclipse.embedcdt.managedbuild.cross.arm.core;bundle-version="3.5.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-21
+Automatic-Module-Name: com.yang.jstudio.build
+Bundle-ActivationPolicy: lazy

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.yang.jstudio.feature"
+      label="JStudio Feature"
+      version="1.0.0.qualifier"
+      provider-name="YANG">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <requires>
+      <import feature="org.eclipse.platform" version="4.34.0.v20241120-1800"/>
+      <import feature="org.eclipse.embedcdt.managedbuild.cross.arm" version="6.6.1.202408270735"/>
+      <import feature="org.eclipse.embedcdt.debug.gdbjtag.openocd" version="6.6.1.202408270735"/>
+   </requires>
+
+   <plugin
+         id="com.yang.jstudio.build"
+         version="0.0.0"/>
+
+   <plugin
+         id="com.yang.jstudio.debug"
+         version="0.0.0"/>
+
+   <plugin
+         id="com.yang.jstudio.product"
+         version="0.0.0"/>
+
+</feature>
